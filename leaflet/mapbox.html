@@ -2,9 +2,7 @@
 <html>
 <head>
 	<title>Mapbox w3w Control Geocoder</title>
-
   <meta name='viewport' content='width=device-width, user-scalable=no initial-scale=1, maximum-scale=1'>
-
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 	<link rel="stylesheet" href="https://rawgit.com/davidpiesse/leaflet-control-geocoder/master/Control.Geocoder.css" />
@@ -25,7 +23,7 @@
 
 	<script type="text/javascript">
   	L.mapbox.accessToken = 'pk.eyJ1IjoiZGF2aWRwaWVzc2UiLCJhIjoiZGU4ZTQ0NjhlZjJlYjRmNTI4ZmI3NmE1NTQyZGRiZGYifQ.Qh9-08kO92B5ITS3ZQBJuQ';
-	var map = L.mapbox.map('map', 'davidpiesse.mbo6dim9').setView([18.5586,-72.3396], 17),
+		var map = L.mapbox.map('map', 'davidpiesse.mbo6dim9').setView([18.5586,-72.3396], 17),
 			geocoder = L.Control.Geocoder.what3words('U9YA2P3F'),
 			control = L.Control.geocoder({
 				geocoder: geocoder,
