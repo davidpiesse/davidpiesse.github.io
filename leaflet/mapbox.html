@@ -24,11 +24,8 @@
 	<div id="map"></div>
 
 	<script type="text/javascript">
-	//From Mapbox
-	// L.mapbox.accessToken = 'pk.eyJ1IjoiZGF2aWRwaWVzc2UiLCJhIjoiZGU4ZTQ0NjhlZjJlYjRmNTI4ZmI3NmE1NTQyZGRiZGYifQ.Qh9-08kO92B5ITS3ZQBJuQ';
   	L.mapbox.accessToken = 'pk.eyJ1IjoiZGF2aWRwaWVzc2UiLCJhIjoiZGU4ZTQ0NjhlZjJlYjRmNTI4ZmI3NmE1NTQyZGRiZGYifQ.Qh9-08kO92B5ITS3ZQBJuQ';
-	//var map = L.mapbox.map('map', 'mapbox.streets').setView([0, 0], 2),
-		var map = L.mapbox.map('map', 'davidpiesse.emp4aemi').setView([0, 0], 2),
+	var map = L.mapbox.map('map', 'davidpiesse.mbo6dim9').setView([18.5586,-72.3396], 17),
 			geocoder = L.Control.Geocoder.what3words('U9YA2P3F'),
 			control = L.Control.geocoder({
 				geocoder: geocoder,
